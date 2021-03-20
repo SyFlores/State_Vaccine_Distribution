@@ -18,13 +18,9 @@ Placeholder
 
 ## Repository
 This section serves as a means to navigate the project/repository.
-- **Scripts**
-  - Data_Cleaning.ipynb
-    - This Jupyter Notebook serves as the data cleaning and transformation file
-    - This file is dependent on the data files located in the Data/Input folder location
-  - Data_Load.py
-    - This Python file serves to load the data into the database
-    - 
+- **Main_Script.ipynb**
+  - This Jupyter Notebook serves as the data cleaning and transformation file
+  - This file is dependent on the data files located in the Data/Input folder location
 - **Data**
   - Input
     - Truth source .csv files (These contain no changes to data)
