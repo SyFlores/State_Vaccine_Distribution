@@ -14,7 +14,7 @@ This repository is intended to show the ETL (extract, transform and load) proces
 - [Sources](#sources)
 ---
 ## Abstract
-Placeholder
+We are intended to extract data on Covid-19 death rates by state/race and data on vaccine distribution for the Pfizer, Moderna, and Janssen vaccines by state from the Center for Disease Control and Prevention government website. We are taking this data and cleaning it so we are able to join on the state value. For the three vaccination datasets, we are taking sums for the weekly allocations through 03/22/2021 and combining it into a single dataset. We are then uploading it into PostgreSQL for querying purposes.
 
 ## Repository
 This section serves as a means to navigate the project/repository.
@@ -26,7 +26,8 @@ This section serves as a means to navigate the project/repository.
     - Truth source .csv files (These contain no changes to data)
     - 'raw_covid_impacts.csv','raw_janssen.csv', 'raw_moderna.csv', and 'raw_pfizer.csv' files
   - Output
-    - Placeholder
+    - Data transformation that took place in the Main_Script.ipynb file
+    - 'covid_impacts.csv' and 'vaccine_allocation.csv files'
 - .gitattributes
   - This file specifies which large file types we are able to upload and download
   - We currently have .csv files
